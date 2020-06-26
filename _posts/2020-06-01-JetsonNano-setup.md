@@ -50,3 +50,12 @@ $ pip install keras
 
   - At the time of this writing, NVIDIA has provided pip wheel files for both **tensorflow-1.15.2 and tensorflow-2.1.0 (https://developer.download.nvidia.com/compute/redist/jp/v44/tensorflow/)**. 
   I used 1.15.2 since my **TensorRT Demo #3: SSD** only works for **tensorflow-1.x**.
+  - just followed instructions on the official documentation, but skipped installation of “protobuf”. 
+  (I already built and installed “protobuf-3.8.0” in the opencv section.)
+  ```
+    $ sudo apt-get install -y libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
+    $ sudo pip3 install -U pip testresources setuptools
+    $ sudo pip3 install -U numpy==1.16.1 future mock h5py keras_preprocessing keras_applications gast futures pybind11
+    $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v44 tensorflow==1.15.2
+  ```
+  - At this point, I tested and made sure “import tensorflow as tf” worked OK in python3.
