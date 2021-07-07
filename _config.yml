@@ -80,7 +80,7 @@ old-roles:
 pitems:
   - name: Mesh Legolizer Maya Plugin
     description: C++, Python, MEL
-    web_url: https://github.com/dzungpng/brick-optimization-builder
+    web_url: https://github.com/lamngoctam
     image_url: /images/project_gifs/alpaca.gif
   
   - name: MPM Simulations 
@@ -110,15 +110,15 @@ pitems:
 
   - name: Volunteer Management App
     description: React, Django
-    web_url: https://github.com/dzungpng/here-to-serve
+    web_url: https://github.com/lamngoctam
     image_url: /images/project_gifs/personalize_community.gif
 
   - name: WeathAR
     description: C#, Unity
-    web_url: https://devpost.com/software/weathar-visualizing-forecasts-and-natural-disasters
+    web_url: https://github.com/lamngoctam
     image_url: /images/weathar.png
 
   - name: Waveform Segmentation
     description: Python, Keras
-    web_url: https://github.com/dzungpng/wave-extraction-unet
+    web_url: https://github.com/lamngoctam
     image_url: /images/waves.png
