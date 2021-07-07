@@ -1,10 +1,9 @@
 ---
+layout: post
 title: "Using Kinect XBOX 1473 with ROS"
 date: 2020-10-10
-categories:
-  - ROS
-tags:
-  - KinectXBOX
+tags: [KinectXBOX, ROS]
+excerpt_separator: <!--more-->
 ---
 
 ---
