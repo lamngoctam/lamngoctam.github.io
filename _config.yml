@@ -78,47 +78,47 @@ old-roles:
 
 # portfolio topics
 pitems:
-  - name: Mesh Legolizer Maya Plugin
+  - name: Project 1
     description: C++, Python, MEL
     web_url: https://github.com/lamngoctam
     image_url: /images/project_gifs/
   
-  - name: MPM Simulations 
+  - name: Project 2
     description: C++, Houdini
     web_url: /pages/mpm-simulations
     image_url: /images/project_gifs/
 
-  - name: Monte Carlo Pathtracer
+  - name: Project 3
     description: C++
     web_url: /pages/monte-carlo
     image_url: /images/
 
-  - name: 3D Mesh Editor
+  - name: Project 4
     description: C++, OpenGL
     web_url: /pages/mesh-editor
     image_url: /images/project_gifs/
 
-  - name: UAV
-    description: C++, OpenGL
+  - name: Undergraduate Project - UAV
+    description: Quadrocoptor, Hardware, Software
     web_url: /pages/demo-reel
     image_url: /images/project_gifs
 
-  - name: Shaders
+  - name: Project 5
     description: C++, OpenGL
     web_url: /pages/shaders
-    image_url: /images/project_gifs/wahoo.gif
+    image_url: /images/project_gifs/
 
-  - name: Volunteer Management App
+  - name: Project 6
     description: React, Django
     web_url: https://github.com/lamngoctam
     image_url: /images/project_gifs/
 
-  - name: WeathAR
+  - name: Project 7
     description: C#, Unity
     web_url: https://github.com/lamngoctam
     image_url: /images/
 
-  - name: Waveform Segmentation
+  - name: Project 8
     description: Python, Keras
     web_url: https://github.com/lamngoctam
     image_url: /images/
