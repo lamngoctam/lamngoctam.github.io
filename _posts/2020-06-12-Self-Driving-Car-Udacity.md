@@ -1,11 +1,12 @@
 ---
+layout: post
 title: "SELF-DRIVING CAR ENGINEER NANODEGREE PROGRAM"
 date: 2020-06-12
-categories:
-  - course
-tags:
-  - Self-driving car
+tags: [course,Self-driving car]
 ---
+
+---
+This course is a fundamental course for understanding from basic to advance knowledge in the autonomous vehicles domain.
 
 ### Program self-driving cars with Sebastian Thrun & Mercedes-Benz
 Dive head-first into automated-vehicle systems with Sebastian Thrun (founder of Google Self-Driving Car Project), and build real-world projects designed by Mercedes-Benz, Uber’s Advanced Technologies Group (ATG) and GPU giant NVIDIA.

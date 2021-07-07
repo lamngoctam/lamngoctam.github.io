@@ -1,12 +1,10 @@
 ---
+layout: post
 title: "Online Courses!"
 date: 2019-01-15
-categories:
-  - courses
-tags:
-  - blog
-  - courses
-  - certificates
+tags: [courses, blog,courses,certificates]
+---
+
 ---
 `Updating: doing online courses from 2019 to 2021`
 
