@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Using Kinect XBOX 1473 with ROS"
-date: 2020-10-10
 tags: [KinectXBOX, ROS]
 excerpt_separator: <!--more-->
 ---
 
 ---
+This post guides how to install Kinect Xbox 1473 sensor in Linux Ubuntu 18.04.
+
+<!--more-->
+
 ### What is the Kinect XBOX 1473 sensor
 
 ### Install Kinect in ROS
