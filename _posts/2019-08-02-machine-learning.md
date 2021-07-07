@@ -11,7 +11,7 @@ Just like with swimming, dancing, and many other things I have done, I decided t
 <!--more-->
 
 
-![ML](/images/blog-ml.jpg){:height="80%" width="80%"}
+![ML](/assets/images/blog-ml.jpg){:height="80%" width="80%"}
 
 
 
