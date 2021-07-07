@@ -1,13 +1,13 @@
 ---
+layout: post
 title: "Path planning"
-date: 2019-03-01
-categories:
-  - courses
-  - papers
-tags:
-  - robotics
-  - PathPlanning
+tags: [courses,papers,robotics,PathPlanning]
+excerpt_separator: <!--more-->
 ---
+
+---
+Path planning from Udacity is in the series of online courses related to self-driving car.
+<!--more-->
 
 ## Course 6: Path Planning from Udacity
 

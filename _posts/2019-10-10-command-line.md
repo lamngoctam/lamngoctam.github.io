@@ -1,14 +1,16 @@
 ---
+layout: post
 title: "The command line crash course"
-date: 2019-10-10
-categories:
-  - 
-tags:
-  - command line
+tags: [command line]
+excerpt_separator: <!--more-->
 ---
 
-## Setup
+---
+Command line cheatsheet!!!
 
+<!--more-->
+
+## Setup
 Mac OSX | Linux | Window
 --- | --- | ---
 COMMAND + spacebar | Shell/Terminal | Powershell
@@ -47,5 +49,5 @@ COMMAND + spacebar | Shell/Terminal | Powershell
 
 | Mac OSX/Linux | Window | Result |
 | ---- | --- | --- |
-| $ pwd |  PS C:\Users\zed> pwd | path |
+| $ pwd |  PS C:\Users\tamlam> pwd | path |
 

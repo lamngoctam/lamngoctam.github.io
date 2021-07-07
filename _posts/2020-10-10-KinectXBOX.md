@@ -7,7 +7,6 @@ excerpt_separator: <!--more-->
 
 ---
 This post guides how to install Kinect Xbox 1473 sensor in Linux Ubuntu 18.04.
-
 <!--more-->
 
 ### What is the Kinect XBOX 1473 sensor

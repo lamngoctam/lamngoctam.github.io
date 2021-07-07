@@ -1,13 +1,13 @@
 ---
+layout: post
 title: "Doing courses"
-date: 2019-01-30
-categories:
-  - courses
-  - programming
-tags:
-  - To-Do
-  - programming
+tags: [courses,To-Do,programming]
+excerpt_separator: <!--more-->
 ---
+
+---
+To become an expert in AI field, should learnt and know some of below important courses.
+<!--more-->
 
 ## I. Programmimg :yum:
 ### 1. Python

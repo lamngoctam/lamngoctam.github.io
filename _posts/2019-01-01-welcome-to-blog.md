@@ -1,12 +1,13 @@
 ---
+layout: post
 title: "Welcome to my blog!"
-date: 2019-01-01
-categories:
-  - blog
-tags:
-  - blog
-  - update
+tags: [blog,update]
+excerpt_separator: <!--more-->
 ---
+
+---
+This post guides how to creat a personal blog from github.
+<!--more-->
 
 `Warning!` 
 
