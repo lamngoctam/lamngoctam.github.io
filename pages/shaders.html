@@ -1,0 +1,85 @@
+---
+
+layout: post
+title: Shaders
+date: October 30, 2018
+primary-language: C++
+framework: OpenGL
+ide: QT Creator
+
+---
+
+<html>
+<body>
+	<br />
+	<div align=center>
+		<iframe src="https://player.vimeo.com/video/311203794?autoplay=1" width=100% height=512 frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		<p><a href="https://vimeo.com/311203794">OpenGL Shaders</a> from <a href="https://vimeo.com/user21907188">Dzung Nguyen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	</div>
+	<br />
+	<p>
+		A very fun mid-course project in my introductory computer graphics course. In order to become familiar with how data is passed between the CPU and GPU with OpenGL and the <b>OpenGL</b> graphics pipeline, I wrote a few <b>vertex</b> and <b>fragment</b> shaders to modify the look of 3D models. Vertex shaders allow for manipulation of vertex attributes such as position, normals, etc. On the other hand, fragment shaders determines the look of the vertices. For instance, a vertex shader that makes the image look like it's morphing would be due to vertex shaders. If the colors changes over time, we would look to fragment shader to see what formula was applied to the vertices.<br /> 
+		<br />
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 8</div>
+				<img src="../../images/shader-blinn.png" style="width:100%">
+				<div class="text">Blinn-Phong.</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 8</div>
+				<img src="../../images/shader-bloom.png" style="width:100%">
+				<div class="text">Bloom</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 8</div>
+				<img src="../../images/shader-blur.png" style="width:100%">
+				<div class="text">Blur</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 8</div>
+				<img src="../../images/shader-bw.png" style="width:100%">
+				<div class="text">Black and White (seems like shaders only start with b...)</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 8</div>
+				<img src="../../images/shader-gradient.png" style="width:100%">
+				<div class="text">Gradient (nope that are not)</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 8</div>
+				<img src="../../images/shader-matcap.png" style="width:100%">
+				<div class="text">Matcap</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 8</div>
+				<img src="../../images/shader-sobel.png" style="width:100%">
+				<div class="text">Sobel</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 8</div>
+				<img src="../../images/shader-worley.png" style="width:100%">
+				<div class="text">Worley</div>
+			</div>
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+			<span class="dot" onclick="currentSlide(5)"></span> 
+			<span class="dot" onclick="currentSlide(6)"></span> 
+			<span class="dot" onclick="currentSlide(7)"></span> 
+			<span class="dot" onclick="currentSlide(8)"></span> 
+		</div>
+	</p>
+</body>
+<script src="../../js/slideshow.js"></script>
+</html>

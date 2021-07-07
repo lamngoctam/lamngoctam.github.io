@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -7,6 +7,8 @@ plugins:
   - jemoji
 
 permalink: /:year/:month/:day/:title/
+
+timezone: America/New_York
 
 defaults:
   -
@@ -18,41 +20,117 @@ defaults:
 
 projects:
   sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  sort_by options:
+    - pushed
+    # - stars
+  limit: 6
   exclude:
     archived: false
     forks: true
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  facebook: dung.nguyenhophuong
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: dzungng
   # mastodon: your_username
-  # medium: your_username
+  medium: 17dpn01
   # stackoverflow: your_user_id
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  website: http://dzungpng.github.io
   # youtube: your_username
+  github: dzungpng
 
+# Me!
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Penn Computer Graphics Undergrad
+    web_url: http://cg.cis.upenn.edu/
+    image_url: /images/penn.jpg
 
-  - name: Web design
+  - name: Cesium GS Software Engineer Intern
+    web_url: https://cesium.com/team/DzungNguyen/
+    image_url: /images/cesium_logo.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Jack Kent Cooke Foundation Scholar
+    web_url: https://www.jkcf.org/
+    image_url: /images/jkc.jpg
+
+  - name: Rewriting the Code Fellow
+    web_url: https://rewritingthecode.org/
+    image_url: /images/RTC.jpg
+
+  - name: hack4impact Software Engineer and Tech Lead
+    web_url: https://hack4impact.org/about/
+    image_url: /images/hack.png
+
+  - name: Proud Artist Since I was Four
+    web_url: pages/aboutme-art
+    image_url: /images/artist.jpg
+
+old-roles:
+  - name: CBRE Build Software Engineer Intern
+    web_url: https://www.cbrebuild.com/
+    image_url: /images/cbre-build.png
+
+  - name: Pennaach Dancer
+    web_url: https://www.youtube.com/user/Pennaach
+    image_url: /images/naach.png
+
+  - name: Penn SIGGRAPH External Relations Chair
+    web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
+    image_url: /images/siggraph.png
+
+# portfolio topics
+pitems:
+  - name: Mesh Legolizer Maya Plugin
+    description: C++, Python, MEL
+    web_url: https://github.com/dzungpng/brick-optimization-builder
+    image_url: /images/project_gifs/alpaca.gif
+  
+  - name: MPM Simulations 
+    description: C++, Houdini
+    web_url: /pages/mpm-simulations
+    image_url: /images/project_gifs/jello.gif
+
+  - name: Monte Carlo Pathtracer
+    description: C++
+    web_url: /pages/monte-carlo
+    image_url: /images/mt-4.png
+
+  - name: 3D Mesh Editor
+    description: C++, OpenGL
+    web_url: /pages/mesh-editor
+    image_url: /images/project_gifs/mini_maya.gif
+
+  - name: Japanese-ink Minecraft
+    description: C++, OpenGL
+    web_url: /pages/minecraft
+    image_url: /images/project_gifs/minecraft.gif
+
+  - name: Shaders
+    description: C++, OpenGL
+    web_url: /pages/shaders
+    image_url: /images/project_gifs/wahoo.gif
+
+  - name: Volunteer Management App
+    description: React, Django
+    web_url: https://github.com/dzungpng/here-to-serve
+    image_url: /images/project_gifs/personalize_community.gif
+
+  - name: WeathAR
+    description: C#, Unity
+    web_url: https://devpost.com/software/weathar-visualizing-forecasts-and-natural-disasters
+    image_url: /images/weathar.png
+
+  - name: Waveform Segmentation
+    description: Python, Keras
+    web_url: https://github.com/dzungpng/wave-extraction-unet
+    image_url: /images/waves.png

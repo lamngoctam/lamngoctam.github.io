@@ -1,0 +1,98 @@
+---
+
+layout: post
+title: Material Point Method Simulation
+date: December 10, 2019
+framework: Ubuntu
+primary-language: C++
+ide: Houdini
+
+---
+
+<html>
+<body>
+    <br />
+    <div align=center>
+        <iframe width="720" height="520" src="https://www.youtube.com/embed/vrzPTnSPwjo" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <figcaption>From beginning to 00:56 seconds.</figcaption><br />
+    </div>
+    <p>
+        During my fall semester of junior year in college, I took a course called CIS563: Physics-based Simulations. This course is taught
+        by <a href="https://www.seas.upenn.edu/~cffjiang/">Dr. Chenfanfu Jiang</a>, whose research focuses on realistic physics-based simulations. 
+        He is well known in the computer graphics community for utilizing the material point method in his research and projects.
+        <br />
+        <br />
+        Prior to taking CIS563, I had zero experience with computer graphics simulations, let alone physics-based. I have always wanted to
+        learn how those millions of leaves in the bridge to the Land of the Dead interact with each other in Coco, or how the snow in Frozen seems to have
+        a personality of its own.
+        <br />
+        <br />
+        For the final project in the course, I created two different types of simulations using a method called Material Point Method (MPM). 
+        There are lots of ways in which simulations can be done. Some methods represent objects as individual particles connected by spring like 
+        edges and directly applies forces onto those particles. Other methods model objects with particle-voxel hybrid 
+        (see Robert Bridson's <a href="https://www.routledge.com/Fluid-Simulation-for-Computer-Graphics/Bridson/p/book/9781482232837?utm_source=crcpress.com&utm_medium=referral">book</a> 
+        on fluid simulations).
+        <br />
+        <br />
+        MPM is gaining popularity in the CG simulations community because it is fast, relatively easy to implement, and is pretty stable
+        for most material. 
+        <div align=center>
+            <figure>
+                <img src="../../images/mpm-diagram.png" width=75% height="auto" class="fade"></img>
+                <figcaption>Overview of MPM. <a href="http://www.andyselle.com/papers/21/snow.pdf">Source</a></figcaption>
+            </figure>
+        </div>
+        This method has two main components: a grid and a system of particles. First each particle's position, velogity, mass, density, volume, and the deformation 
+        gradient are stored. We also initialize grid node data which include mass, velocity, and other helper data structures. The deformation gradient is derived from a body's deformation, a mapping from its undeformed configuration X to 
+        its deformed configuration x. This particle information is then transferred to the grid. Next, forces such as gravity, elasticity, and self collision are calculated and applied to the grid. 
+        The grid nodes themselves have velocity of their own, computed from the particles within them. We use the forces to update the new velocity of each grid node. Using either 
+        implicit or explicit integration, we solve the system of linear equations to get new particle states from the updated grid velocities. These steps 
+        get repeated via small time steps until the simulation is completed.
+        <br />
+        <br />
+        Using MPM, I created two different simulations - jelly-like material (elastic) and snow. 
+        First I outputed particle data for each frame, then transfer this particle information to 
+        Houdini using various Houdini nodes. In order to speed up the simulation output generation, I used 
+        Ubuntu (dual-booted on my 8GB RAM Macbook Pro 2017).
+        <div align=center>
+            <figure>
+                <img src="../../images/crab.png" width=75% height="auto" class="fade"></img>
+                <figcaption>Crab made out of jelly</figcaption>
+            </figure>
+        </div>
+        <div align=center>
+            <figure>
+                <img src="../../images/crab-particles.png" width=75% height="auto" class="fade"></img>
+                <figcaption>The same crab as above in particle view</figcaption>
+            </figure>
+        </div>
+        The jelly material was more straight forward to implement than its snow counterpart. Snow simulation can be achieved by modifying 
+        the jelly simulation code by removing elasticity and adding some new variables, including critical compression, criticle stretch, 
+        hardening coefficient, Young's modulus, and Posson's ratio. These parameters together determines how the snow behaves. 
+        <div align=center>
+            <figure>
+                <img src="../../images/snow-parameters.png" width=40% height="auto" class="fade"></img>
+                <figcaption>Parameters that influence how snow behaves. 
+                    <a href="http://www.andyselle.com/papers/21/snow.pdf">Source</a></figcaption>
+            </figure>
+            <figure>
+                <img src="../../images/snow-behavior.png" width=40% height="auto" class="fade"></img>
+                <figcaption>Different snow behaviors based on different parameters listed above. 
+                    <a href="http://www.andyselle.com/papers/21/snow.pdf">Source</a></figcaption>
+            </figure>
+        </div>
+        I had more difficulty understanding the concepts behind snow simulations because there were so many different derivatives and 
+        variables. Making the snow look visually appealing was also a challenge for me since I was new to Houdini and the tools I used works better for 
+        jelly-like material than snow. 
+        <div align=center>
+            <figure>
+                <img src="../../images/mpm-snow.png" width=75% height="auto" class="fade"></img>
+                <figcaption>Snow in particle view. 
+            </figure>
+        </div>
+        For more details on the termonology as well as the method described, please visit Dr. Chenfanfu Jiang's 
+        <a href="https://www.seas.upenn.edu/~cffjiang/research/thesis/thesis.pdf">thesis</a> on MPM.
+    </p>
+</body>
+</html>
