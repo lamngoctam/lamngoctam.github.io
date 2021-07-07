@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Jetson Nano Setup"
+tags: [Jetson Nano, Linux]
+excerpt_separator: <!--more-->
+---
+
+---
+The blog shows the very first steps for setting up the Jetson Nano.
+<!--more-->
+
 ### Swaping memory
 
 - Check System Monitor: see the Memory (with 3.9GB) and Swap (normally with 2GB)
