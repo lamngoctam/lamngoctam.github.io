@@ -101,7 +101,7 @@ pitems:
   - name: Undergraduate Project - UAV
     description: Quadrocoptor, Hardware, Software
     web_url: /pages/demo-reel
-    image_url: /assets/images/Projects/uav.jpg
+    image_url: /assets/images/Projects/uav.png
 
   - name: Project 5
     description: C++, OpenGL
