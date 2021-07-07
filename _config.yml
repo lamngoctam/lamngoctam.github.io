@@ -8,7 +8,7 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-timezone: America/New_York
+timezone: Australia/West
 
 defaults:
   -
@@ -33,21 +33,21 @@ projects:
 social_media:
   # behance: your_username
   # dribbble: your_username
-  facebook: dung.nguyenhophuong
+  facebook: lam.ngoctam.1
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  linkedin: dzungng
+  linkedin: ngoctamlam
   # mastodon: your_username
-  medium: 17dpn01
+  medium: amngoctam
   # stackoverflow: your_user_id
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  website: http://dzungpng.github.io
+  website: http://lamngoctam.github.io
   # youtube: your_username
-  github: dzungpng
+  github: lamngoctam
 
 # Me!
 topics:
@@ -76,17 +76,17 @@ topics:
     image_url: /images/artist.jpg
 
 old-roles:
-  - name: CBRE Build Software Engineer Intern
-    web_url: https://www.cbrebuild.com/
-    image_url: /images/cbre-build.png
+  - name: Nexxis Software Engineer Intern
+    web_url: https://nexxis.com.au
+    image_url: /assets/images/company/nexxis.png
 
-  - name: Pennaach Dancer
-    web_url: https://www.youtube.com/user/Pennaach
-    image_url: /images/naach.png
+  - name: Innovation Center Perth Software Engineer Intern
+    web_url: https://icentralau.com.au/Perth/
+    image_url: /assets/images/company/icp.jpg
 
-  - name: Penn SIGGRAPH External Relations Chair
-    web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
-    image_url: /images/siggraph.png
+  - name: Autonomous RC Excavator
+    web_url: https://www.youtube.com/
+    image_url: /assets/images/company/excavator.jpg
 
 # portfolio topics
 pitems:
