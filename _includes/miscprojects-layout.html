@@ -1,0 +1,9 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Just Me Exploring My Interests and Hobbies!</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">From 3D art to machine learning...</p>
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+  {% for miscproject in site.miscprojects %}
+    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include miscproject-card.html %}
+    </div>
+  {% endfor %}
+</div>

@@ -1,2 +1,11 @@
-  </body>
-</html>
+{% if site.style == 'dark' %}
+  {% assign icon_color = "#ffffff" %}
+{% else %}
+  {% assign icon_color = "#24292e" %}
+{% endif %}
+
+
+<footer class="bg-gray-dark">
+    <p style="text-align:center; color: white"> Dzung Nguyen @ 2020 </p>
+    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+</footer>

@@ -1,0 +1,11 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>A Recent Involvement</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">During my internship this summer, I got involved more with web 
+development and found myself really enjoy the fullstack process. I did several tutorials (check out my git repos!) and found Django a nice framework. Currently
+exploring React to get more involved with front-end dev! </p>
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+  {% for webproject in site.webprojects %}
+    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include webproject-card.html %}
+    </div>
+  {% endfor %}
+</div>

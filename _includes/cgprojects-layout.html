@@ -1,0 +1,11 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>CG Explorations</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">As a cg major, I've had the chance to learn 
+	from the fundamentals of cg like half-edge data structures to programming my own Minecraft. Here's a culmination of what I've discovered
+	from my learning journey thus far. Enjoy!</p>
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+  {% for cgproject in site.cgprojects %}
+    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include cgproject-card.html %}
+    </div>
+  {% endfor %}
+</div>
