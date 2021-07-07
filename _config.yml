@@ -81,27 +81,27 @@ pitems:
   - name: Mesh Legolizer Maya Plugin
     description: C++, Python, MEL
     web_url: https://github.com/lamngoctam
-    image_url: /images/project_gifs/alpaca.gif
+    image_url: /images/project_gifs/
   
   - name: MPM Simulations 
     description: C++, Houdini
     web_url: /pages/mpm-simulations
-    image_url: /images/project_gifs/jello.gif
+    image_url: /images/project_gifs/
 
   - name: Monte Carlo Pathtracer
     description: C++
     web_url: /pages/monte-carlo
-    image_url: /images/mt-4.png
+    image_url: /images/
 
   - name: 3D Mesh Editor
     description: C++, OpenGL
     web_url: /pages/mesh-editor
-    image_url: /images/project_gifs/mini_maya.gif
+    image_url: /images/project_gifs/
 
-  - name: Japanese-ink Minecraft
+  - name: UAV
     description: C++, OpenGL
-    web_url: /pages/minecraft
-    image_url: /images/project_gifs/minecraft.gif
+    web_url: /pages/demo-reel
+    image_url: /images/project_gifs
 
   - name: Shaders
     description: C++, OpenGL
@@ -111,14 +111,14 @@ pitems:
   - name: Volunteer Management App
     description: React, Django
     web_url: https://github.com/lamngoctam
-    image_url: /images/project_gifs/personalize_community.gif
+    image_url: /images/project_gifs/
 
   - name: WeathAR
     description: C#, Unity
     web_url: https://github.com/lamngoctam
-    image_url: /images/weathar.png
+    image_url: /images/
 
   - name: Waveform Segmentation
     description: Python, Keras
     web_url: https://github.com/lamngoctam
-    image_url: /images/waves.png
+    image_url: /images/
