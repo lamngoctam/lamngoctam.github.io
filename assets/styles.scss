@@ -1,8 +1,78 @@
+// ---
+// ---
+// @import url('https://unpkg.com/primer/build/build.css');
+// @import 'highlight-syntax';
+
+
+// // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
+// .github-component {
+//   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+// }
+
+// .repo-language-color {
+//     filter: brightness(125%) !important;
+//     border-radius: 50%;
+//     display: inline-block;
+//     height: 12px;
+//     position: relative;
+//     top: 2px;
+//     width: 12px;
+// }
+
+// .emoji {
+//   width: 18px;
+//   height: auto;
+//   vertical-align: middle;
+// }
+
+// .article {
+//   h1, h2, h3, h4,
+//   .highlight {
+//     margin-bottom: 16px;
+//   }
+
+//   blockquote {
+//     color: #6a737d;
+//     border-left: 2px solid #959da5;
+//     padding-left: 16px;
+//     margin-bottom: 16px;
+//   }
+
+//   ul, ol {
+//     padding-left: 32px;
+//     margin-bottom: 16px;
+//   }
+
+//   li ul, li ol {
+//     padding-left: 16px;
+//     margin-bottom: 0px;
+//   }
+// }
+
+// .min-height-full {
+//   min-height: 100vh;
+// }
+
+
+
 ---
 ---
 @import url('https://unpkg.com/primer/build/build.css');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import 'highlight-syntax';
 
+
+// Headers
+h2.center {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#handwriting {
+  font-size: 38px;
+  font-family: 'Caveat', cursive;
+  color: #2f363d
+}
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
@@ -51,4 +121,222 @@
 
 .min-height-full {
   min-height: 100vh;
+}
+
+footer {
+  padding : 25px
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  padding: 5px;
+}
+
+.img {
+  align: center
+}
+
+// Fading effects ----------------------
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
+#loadpage p {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+// ---------------- SLIDESHOW STUFF -------------------------
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+// ----------------------- ART WALL -----------------------------
+
+.row-art {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-art {
+  flex: 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 4px;
+}
+
+.column-art img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-art {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-art {
+    flex: 100%;
+    max-width: 100%;
+  }
+} 
+
+// Makes artworks zoom bigger a little bit on hover
+img.art {
+    transition:transform 0.25s ease;
+}
+
+img.art:hover {
+    -webkit-transform:scale(2);
+    transform:scale(2);
+}
+
+img.threed {
+    transition:transform 0.25s ease;
+}
+
+img.threed:hover {
+    -webkit-transform:scale(2.25);
+    transform:scale(2.25);
+}
+
+.center-image
+{
+  margin: 0 auto;
+  display: block;
+}
+
+.bg-gray-400
+{
+  background-color: #959da5;
+}
+
+// Links
+.no-underline:hover {
+  text-decoration: none;
 }
