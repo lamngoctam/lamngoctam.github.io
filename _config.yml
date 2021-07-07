@@ -51,29 +51,17 @@ social_media:
 
 # Me!
 topics:
-  - name: Penn Computer Graphics Undergrad
-    web_url: http://cg.cis.upenn.edu/
-    image_url: /images/penn.jpg
+  - name: Higher degree by research - Curtin University
+    web_url: https://study.curtin.edu.au/higher-degree-by-research/
+    image_url: /assets/images/company/curtin.jpg
 
-  - name: Cesium GS Software Engineer Intern
-    web_url: https://cesium.com/team/DzungNguyen/
-    image_url: /images/cesium_logo.png
+  - name: Biorobotics Research Lab - Curtin University
+    web_url: https://scieng.curtin.edu.au/research/biorobotics-research-lab/
+    image_url: /assets/images/company/curtin.jpg
 
-  - name: Jack Kent Cooke Foundation Scholar
-    web_url: https://www.jkcf.org/
-    image_url: /images/jkc.jpg
-
-  - name: Rewriting the Code Fellow
-    web_url: https://rewritingthecode.org/
-    image_url: /images/RTC.jpg
-
-  - name: hack4impact Software Engineer and Tech Lead
-    web_url: https://hack4impact.org/about/
-    image_url: /images/hack.png
-
-  - name: Proud Artist Since I was Four
-    web_url: pages/aboutme-art
-    image_url: /images/artist.jpg
+  - name: VinAi Research - Pushing the frontier of Artificial Intelligence
+    web_url: https://www.vinai.io
+    image_url: /assets/images/company/vinai.png
 
 old-roles:
   - name: Nexxis Software Engineer Intern

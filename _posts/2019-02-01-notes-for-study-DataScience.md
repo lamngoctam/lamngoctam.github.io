@@ -1,11 +1,13 @@
 ---
+layout: post
 title: "Notes for study Data Science!"
-date: 2019-02-01
-categories:
-  - blog
-tags:
-  - Data Science
+tags: [blog,Data Science]
+excerpt_separator: <!--more-->
 ---
+
+---
+The road to become an Data Scientist should through these books and skills!
+<!--more-->
 
 # Books should read
 `Programming`
