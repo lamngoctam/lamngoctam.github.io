@@ -1,12 +1,13 @@
 ---
-Title: "Reviews on AI career"
-Date: 2020-01-15
-Categories:
-  - Career
-Tags:
-  - AI
-  - skills
+layout: post
+title: "Reviews on AI career"
+tags: [career,AI,skills]
+excerpt_separator: <!--more-->
 ---
+
+---
+To get a better AI job in the future, we should have AI background and some require skills as shown below.
+<!--more-->
 
 ## Introduction
 Understanding the requirements for different types of AI jobs will help you to better preparing the solid background and skills.

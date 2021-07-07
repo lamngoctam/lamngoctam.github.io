@@ -1,11 +1,13 @@
 ---
+layout: post
 title: "How to setup Linux subsystem in Window 10"
-date: 2019-01-20
-categories:
-  - softwares
-tags:
-  - linux
+tags: [software, linux]
+excerpt_separator: <!--more-->
 ---
+
+---
+The blog shows the guide to setup Linux subsystem in Window 10.
+<!--more-->
 
 ## There are some steps which can help you working on Linux system
 - Changing some features in Window as the below images

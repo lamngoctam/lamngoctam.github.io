@@ -1,11 +1,13 @@
 ---
+layout: post
 title: "Productive working day"
-date: 2020-01-14
-categories:
-  - blog
-tags:
-  - reading
+tags: [blog,reading]
+excerpt_separator: <!--more-->
 ---
+
+---
+Strict routine for productive day (just for personal reference)
+<!--more-->
 
 ## Morning routines
 - Getting up at 5-6:30am everydays

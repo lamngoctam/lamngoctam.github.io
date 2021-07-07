@@ -1,14 +1,16 @@
 ---
 layout: post
 title: "Online Courses!"
-date: 2019-01-15
 tags: [courses, blog,courses,certificates]
+excerpt_separator: <!--more-->
 ---
 
 ---
-`Updating: doing online courses from 2019 to 2021`
+Updating: doing online courses from 2019 to 2021
+<!--more-->
 
-This is a plan to take coures which supports to my research skills and prepares for my future jobs.
+
+- This is a plan to take coures which supports to my research skills and prepares for my future jobs.
 Link to [lists of courses](https://lamngoctam.github.io/blog/DoingCourses/). Notes that I will update new courses into the list regularly.
 
 ## Programming

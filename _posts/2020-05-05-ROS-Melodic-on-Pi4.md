@@ -1,14 +1,13 @@
 ---
+layout: post
 title: "Install ROS Melodic on Raspberry Pi4"
-date: 2020-05-05
-categories:
-  - ROS
-tags:
-  - Pi4
-  - ROS
+tags: [Pi4,ROS]
+excerpt_separator: <!--more-->
 ---
 
-### This is tutorial how to install ROS Melodic on Raspberry Pi4B.
+---
+This is tutorial how to install ROS Melodic on Raspberry Pi4B.
+<!--more-->
 
 ## 1.Install Ubuntu 18.04 on Pi4
 ### 1.1.Official Ubuntu 18.04

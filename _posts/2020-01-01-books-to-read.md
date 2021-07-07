@@ -1,13 +1,13 @@
 ---
+layout: post
 title: "2020 books to read"
-date: 2020-01-01
-categories:
-  - books
-tags:
-  - programming
-  - books
-  - software engineering
+tags: [programming,books,software engineering]
+excerpt_separator: <!--more-->
 ---
+
+---
+Updating: Not yet finished all untill 2021 =).
+<!--more-->
 
 ## List of books should be read in 2020
 - [Becoming a Better Programmer - CPlusPlus](https://github.com/lamngoctam/lamngoctam.github.io/blob/master/assets/books/Becoming%20a%20Better%20Programmer%20-%20CPlusPlus.pdf)
@@ -20,3 +20,5 @@ tags:
 - [Refactoring- Improving the Design of Existing Code - C-Sharp](https://github.com/lamngoctam/lamngoctam.github.io/blob/master/assets/books/Refactoring-%20Improving%20the%20Design%20of%20Existing%20Code%20-%20C-Sharp.pdf)
 - [Head First Agile](https://github.com/lamngoctam/lamngoctam.github.io/blob/master/assets/books/Head%20First%20Agile.pdf)
 - [Scrum - The Ultimate Beginners Guide](https://github.com/lamngoctam/lamngoctam.github.io/blob/master/assets/books/Scrum%20-%20The%20Ultimate%20Beginners%20Guide.pdf)
+
+
