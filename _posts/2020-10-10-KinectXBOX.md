@@ -7,6 +7,7 @@ tags:
   - KinectXBOX
 ---
 
+---
 ### What is the Kinect XBOX 1473 sensor
 
 ### Install Kinect in ROS

@@ -1,8 +1,8 @@
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %} id="handwriting">My Thoughts</h2>
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">How to start learning something? What's for lunch? How did I make that? Find the answers to these questions and more through my articles:</p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  {% for post in site.posts limit: 6 %}
-    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+  {% for post in site.posts limit: 12 %}
+    <div class="col-sm-12 col-md-24 col-lg-12 col-xl-4 mb-3">
       {% include post-card.html %}
     </div>
   {% endfor %}
