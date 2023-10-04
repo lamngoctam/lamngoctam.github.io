@@ -1,11 +1,13 @@
 ---
+layout: post
 title: "Embedded System"
-date: 2023-10-03
-categories:
-  - Hardware
-tags:
-  - knowledge
+tags: [Hardware,knowledge]
+excerpt_separator: <!--more-->
 ---
+
+---
+Notes for embedded system.
+<!--more-->
 
 
 ## Blog
