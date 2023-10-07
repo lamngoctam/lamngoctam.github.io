@@ -51,6 +51,10 @@ social_media:
 
 # Me!
 topics:
+  - name: Autonomy Software Engineer - Fortescue
+    web_url: https://study.curtin.edu.au/higher-degree-by-research/
+    image_url: /assets/images/company/FMG.jpg
+
   - name: Higher degree by research - Curtin University
     web_url: https://study.curtin.edu.au/higher-degree-by-research/
     image_url: /assets/images/company/curtin.jpg
